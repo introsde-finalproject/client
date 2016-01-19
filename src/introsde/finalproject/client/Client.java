@@ -542,7 +542,7 @@ public class Client {
 
     public static void timePause(){
         try {
-            Thread.sleep(2000);
+            Thread.sleep(4000);
         } catch (InterruptedException ie) {
 
         } 

@@ -39,7 +39,7 @@
         <delete dir="${ivy.jar.dir}" />
     </target>
 
-    <property name="processcentric.wsdl" value="http://127.0.0.1:7000/soap/processcentric?wsdl" />
+    <property name="processcentric.wsdl" value="http://46.101.62.72:7000/soap/processcentric?wsdl" />
     <target name="import">
         <exec executable="wsimport">
             <arg line="${processcentric.wsdl} -s src -Xnocompile" />
